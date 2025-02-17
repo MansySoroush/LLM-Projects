@@ -1,0 +1,7 @@
+ipykernel
+python == 3.11.4
+python-dotenv
+streamlit >= 1.37.0
+langchain >= 0.2.11
+langchain-openai >= 0.1.19
+tiktoken >= 0.7.0
