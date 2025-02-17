@@ -3,9 +3,9 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "WriteTextSummurizationStreamlitLLM"
+name = "ExtractKeyDataStreamlitLLM"
 version = "0.0.1"
-description = "A StreamLit App to summurize a long text as users'input"
+description = "A StreamLit App to Extract key information from a product review."
 authors = [{name = "Mansy", email = "mansy.soroush@gmail.com"}]
 dependencies = [
     "ipykernel",
@@ -13,6 +13,5 @@ dependencies = [
     "python-dotenv",
     "streamlit >= 1.37.0",
     "langchain >= 0.2.11",
-    "langchain-openai >= 0.1.19",
-    "tiktoken >= 0.7.0"
+    "langchain-openai >= 0.1.19"
 ]
