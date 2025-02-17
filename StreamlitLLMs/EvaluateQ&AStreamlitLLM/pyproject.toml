@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "EvaluateQ&AStreamlitLLM"
+version = "0.0.1"
+description = "A StreamLit App to Evaluate the quality of a RAG App e.g. Q&A from a document."
+authors = [{name = "Mansy", email = "mansy.soroush@gmail.com"}]
+dependencies = [
+    "ipykernel",
+    "python = 3.11.4",
+    "python-dotenv",
+    "streamlit >= 1.37.0",
+    "langchain >= 0.2.11",
+    "langchain-openai >= 0.1.19"
+    "chromadb >= 0.5.5",
+    "tiktoken >= 0.7.0",
+    "faiss-cpu >= 1.8.0.post1",
+    "langchain-community >= 0.2.10"
+
+]
